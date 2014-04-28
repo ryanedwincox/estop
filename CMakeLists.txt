@@ -8,13 +8,13 @@ include(${QT_USE_FILE})
 
 add_definitions(-DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4)
 qt4_wrap_cpp(MOC_FILES
-  include/firstplugin.h
+  include/estopControl.h
     include/secondplugin.h
 )
 set(SOURCE_FILES
-  src/firstplugin.cpp
+  src/estopControl.cpp
     src/secondplugin.cpp
-  include/firstplugin.h
+  include/estopControl.h
     include/secondplugin.h
     plugin_description.xml
 manifest.xml

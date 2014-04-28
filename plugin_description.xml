@@ -1,0 +1,17 @@
+<library path="lib/librviz_estop_plugin">
+  <class name="estop/FirstPlugin"
+         type="estop::FirstPlugin"
+         base_class_type="rviz::Display">
+    <description>
+        Description of this plugin. Read more at: www.bluhaptics.com
+    </description>
+    </class>
+
+  <class name="estop/SecondPlugin"
+         type="estop::SecondPlugin"
+         base_class_type="rviz::Display">
+    <description>
+        Description of this plugin. Read more at: www.bluhaptics.com
+    </description>
+    </class>
+</library>

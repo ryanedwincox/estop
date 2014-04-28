@@ -1,0 +1,21 @@
+<package>
+  <description brief="estop">
+
+     estop
+
+  </description>
+  <author>Ryan Cox</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/estop</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="rviz"/>
+  <export>
+      <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+
+</package>
+
+

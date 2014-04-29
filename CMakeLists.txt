@@ -9,13 +9,13 @@ include(${QT_USE_FILE})
 add_definitions(-DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4)
 qt4_wrap_cpp(MOC_FILES
   include/estopControl.h
-    include/secondplugin.h
+    include/heartbeat.h
 )
 set(SOURCE_FILES
   src/estopControl.cpp
-    src/secondplugin.cpp
+    src/heartbeat.cpp
   include/estopControl.h
-    include/secondplugin.h
+    include/heartbeat.h
     plugin_description.xml
 manifest.xml
 mainpage.dox

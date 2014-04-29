@@ -46,232 +46,232 @@ include CMakeFiles/estop.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/estop.dir/flags.make
 
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: CMakeFiles/estop.dir/flags.make
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: ../src/firstplugin.cpp
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: ../manifest.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rostime/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/roscpp_serialization/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/genmsg/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/genpy/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/message_runtime/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/std_msgs/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosgraph/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosgraph_msgs/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/catkin/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rospack/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/roslib/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rospy/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosconsole/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/gencpp/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/genlisp/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/message_generation/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/actionlib_msgs/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/nav_msgs/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/visualization_msgs/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/message_filters/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/tf/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/console_bridge/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/class_loader/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/pluginlib/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/image_transport/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/angles/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/laser_geometry/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/python_qt_binding/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/urdfdom_headers/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/urdfdom/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/collada_parser/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosconsole_bridge/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/urdf/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/std_srvs/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/topic_tools/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosbag/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/resource_retriever/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/image_geometry/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosclean/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosmaster/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosout/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosparam/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/roslaunch/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rosunit/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rostest/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/interactive_markers/package.xml
-CMakeFiles/estop.dir/src/firstplugin.cpp.o: /opt/ros/groovy/share/rviz/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: CMakeFiles/estop.dir/flags.make
+CMakeFiles/estop.dir/src/estopControl.cpp.o: ../src/estopControl.cpp
+CMakeFiles/estop.dir/src/estopControl.cpp.o: ../manifest.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rostime/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/roscpp_serialization/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/genmsg/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/genpy/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/message_runtime/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/std_msgs/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosgraph/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosgraph_msgs/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/catkin/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rospack/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/roslib/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rospy/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosconsole/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/gencpp/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/genlisp/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/message_generation/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/actionlib_msgs/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/nav_msgs/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/visualization_msgs/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/message_filters/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/tf/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/console_bridge/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/class_loader/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/pluginlib/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/image_transport/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/angles/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/laser_geometry/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/python_qt_binding/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/urdfdom_headers/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/urdfdom/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/collada_parser/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosconsole_bridge/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/urdf/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/std_srvs/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/topic_tools/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosbag/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/resource_retriever/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/image_geometry/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosclean/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosmaster/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosout/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosparam/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/roslaunch/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rosunit/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rostest/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/interactive_markers/package.xml
+CMakeFiles/estop.dir/src/estopControl.cpp.o: /opt/ros/groovy/share/rviz/package.xml
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/estop.dir/src/firstplugin.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/estop.dir/src/firstplugin.cpp.o -c /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/firstplugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/estop.dir/src/estopControl.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/estop.dir/src/estopControl.cpp.o -c /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/estopControl.cpp
 
-CMakeFiles/estop.dir/src/firstplugin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estop.dir/src/firstplugin.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/firstplugin.cpp > CMakeFiles/estop.dir/src/firstplugin.cpp.i
+CMakeFiles/estop.dir/src/estopControl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estop.dir/src/estopControl.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/estopControl.cpp > CMakeFiles/estop.dir/src/estopControl.cpp.i
 
-CMakeFiles/estop.dir/src/firstplugin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estop.dir/src/firstplugin.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/firstplugin.cpp -o CMakeFiles/estop.dir/src/firstplugin.cpp.s
+CMakeFiles/estop.dir/src/estopControl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estop.dir/src/estopControl.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/estopControl.cpp -o CMakeFiles/estop.dir/src/estopControl.cpp.s
 
-CMakeFiles/estop.dir/src/firstplugin.cpp.o.requires:
-.PHONY : CMakeFiles/estop.dir/src/firstplugin.cpp.o.requires
+CMakeFiles/estop.dir/src/estopControl.cpp.o.requires:
+.PHONY : CMakeFiles/estop.dir/src/estopControl.cpp.o.requires
 
-CMakeFiles/estop.dir/src/firstplugin.cpp.o.provides: CMakeFiles/estop.dir/src/firstplugin.cpp.o.requires
-	$(MAKE) -f CMakeFiles/estop.dir/build.make CMakeFiles/estop.dir/src/firstplugin.cpp.o.provides.build
-.PHONY : CMakeFiles/estop.dir/src/firstplugin.cpp.o.provides
+CMakeFiles/estop.dir/src/estopControl.cpp.o.provides: CMakeFiles/estop.dir/src/estopControl.cpp.o.requires
+	$(MAKE) -f CMakeFiles/estop.dir/build.make CMakeFiles/estop.dir/src/estopControl.cpp.o.provides.build
+.PHONY : CMakeFiles/estop.dir/src/estopControl.cpp.o.provides
 
-CMakeFiles/estop.dir/src/firstplugin.cpp.o.provides.build: CMakeFiles/estop.dir/src/firstplugin.cpp.o
+CMakeFiles/estop.dir/src/estopControl.cpp.o.provides.build: CMakeFiles/estop.dir/src/estopControl.cpp.o
 
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: CMakeFiles/estop.dir/flags.make
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: ../src/secondplugin.cpp
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: ../manifest.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rostime/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/roscpp_serialization/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/genmsg/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/genpy/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/message_runtime/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/std_msgs/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosgraph/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosgraph_msgs/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/catkin/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rospack/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/roslib/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rospy/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosconsole/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/gencpp/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/genlisp/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/message_generation/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/actionlib_msgs/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/nav_msgs/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/visualization_msgs/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/message_filters/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/tf/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/console_bridge/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/class_loader/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/pluginlib/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/image_transport/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/angles/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/laser_geometry/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/python_qt_binding/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/urdfdom_headers/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/urdfdom/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/collada_parser/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosconsole_bridge/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/urdf/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/std_srvs/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/topic_tools/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosbag/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/resource_retriever/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/image_geometry/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosclean/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosmaster/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosout/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosparam/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/roslaunch/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rosunit/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rostest/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/interactive_markers/package.xml
-CMakeFiles/estop.dir/src/secondplugin.cpp.o: /opt/ros/groovy/share/rviz/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: CMakeFiles/estop.dir/flags.make
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: ../src/heartbeat.cpp
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: ../manifest.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rostime/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/roscpp_serialization/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/genmsg/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/genpy/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/message_runtime/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/std_msgs/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosgraph/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosgraph_msgs/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/catkin/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rospack/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/roslib/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rospy/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosconsole/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/gencpp/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/genlisp/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/message_generation/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/actionlib_msgs/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/nav_msgs/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/visualization_msgs/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/message_filters/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/tf/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/console_bridge/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/class_loader/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/pluginlib/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/image_transport/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/angles/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/laser_geometry/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/python_qt_binding/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/urdfdom_headers/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/urdfdom/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/collada_parser/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosconsole_bridge/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/urdf/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/std_srvs/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/topic_tools/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosbag/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/resource_retriever/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/image_geometry/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosclean/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosmaster/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosout/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosparam/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/roslaunch/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rosunit/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rostest/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/interactive_markers/package.xml
+CMakeFiles/estop.dir/src/heartbeat.cpp.o: /opt/ros/groovy/share/rviz/package.xml
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/estop.dir/src/secondplugin.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/estop.dir/src/secondplugin.cpp.o -c /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/secondplugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/estop.dir/src/heartbeat.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/estop.dir/src/heartbeat.cpp.o -c /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/heartbeat.cpp
 
-CMakeFiles/estop.dir/src/secondplugin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estop.dir/src/secondplugin.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/secondplugin.cpp > CMakeFiles/estop.dir/src/secondplugin.cpp.i
+CMakeFiles/estop.dir/src/heartbeat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estop.dir/src/heartbeat.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/heartbeat.cpp > CMakeFiles/estop.dir/src/heartbeat.cpp.i
 
-CMakeFiles/estop.dir/src/secondplugin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estop.dir/src/secondplugin.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/secondplugin.cpp -o CMakeFiles/estop.dir/src/secondplugin.cpp.s
+CMakeFiles/estop.dir/src/heartbeat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estop.dir/src/heartbeat.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/pierre/Dropbox/uh/uh1/ros_ws/estop/src/heartbeat.cpp -o CMakeFiles/estop.dir/src/heartbeat.cpp.s
 
-CMakeFiles/estop.dir/src/secondplugin.cpp.o.requires:
-.PHONY : CMakeFiles/estop.dir/src/secondplugin.cpp.o.requires
+CMakeFiles/estop.dir/src/heartbeat.cpp.o.requires:
+.PHONY : CMakeFiles/estop.dir/src/heartbeat.cpp.o.requires
 
-CMakeFiles/estop.dir/src/secondplugin.cpp.o.provides: CMakeFiles/estop.dir/src/secondplugin.cpp.o.requires
-	$(MAKE) -f CMakeFiles/estop.dir/build.make CMakeFiles/estop.dir/src/secondplugin.cpp.o.provides.build
-.PHONY : CMakeFiles/estop.dir/src/secondplugin.cpp.o.provides
+CMakeFiles/estop.dir/src/heartbeat.cpp.o.provides: CMakeFiles/estop.dir/src/heartbeat.cpp.o.requires
+	$(MAKE) -f CMakeFiles/estop.dir/build.make CMakeFiles/estop.dir/src/heartbeat.cpp.o.provides.build
+.PHONY : CMakeFiles/estop.dir/src/heartbeat.cpp.o.provides
 
-CMakeFiles/estop.dir/src/secondplugin.cpp.o.provides.build: CMakeFiles/estop.dir/src/secondplugin.cpp.o
+CMakeFiles/estop.dir/src/heartbeat.cpp.o.provides.build: CMakeFiles/estop.dir/src/heartbeat.cpp.o
 
-CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o: CMakeFiles/estop.dir/flags.make
-CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o: include/moc_firstplugin.cxx
+CMakeFiles/estop.dir/include/moc_estopControl.cxx.o: CMakeFiles/estop.dir/flags.make
+CMakeFiles/estop.dir/include/moc_estopControl.cxx.o: include/moc_estopControl.cxx
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o -c /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_firstplugin.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/estop.dir/include/moc_estopControl.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/estop.dir/include/moc_estopControl.cxx.o -c /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_estopControl.cxx
 
-CMakeFiles/estop.dir/include/moc_firstplugin.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estop.dir/include/moc_firstplugin.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_firstplugin.cxx > CMakeFiles/estop.dir/include/moc_firstplugin.cxx.i
+CMakeFiles/estop.dir/include/moc_estopControl.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estop.dir/include/moc_estopControl.cxx.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_estopControl.cxx > CMakeFiles/estop.dir/include/moc_estopControl.cxx.i
 
-CMakeFiles/estop.dir/include/moc_firstplugin.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estop.dir/include/moc_firstplugin.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_firstplugin.cxx -o CMakeFiles/estop.dir/include/moc_firstplugin.cxx.s
+CMakeFiles/estop.dir/include/moc_estopControl.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estop.dir/include/moc_estopControl.cxx.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_estopControl.cxx -o CMakeFiles/estop.dir/include/moc_estopControl.cxx.s
 
-CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o.requires:
-.PHONY : CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o.requires
+CMakeFiles/estop.dir/include/moc_estopControl.cxx.o.requires:
+.PHONY : CMakeFiles/estop.dir/include/moc_estopControl.cxx.o.requires
 
-CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o.provides: CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o.requires
-	$(MAKE) -f CMakeFiles/estop.dir/build.make CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o.provides.build
-.PHONY : CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o.provides
+CMakeFiles/estop.dir/include/moc_estopControl.cxx.o.provides: CMakeFiles/estop.dir/include/moc_estopControl.cxx.o.requires
+	$(MAKE) -f CMakeFiles/estop.dir/build.make CMakeFiles/estop.dir/include/moc_estopControl.cxx.o.provides.build
+.PHONY : CMakeFiles/estop.dir/include/moc_estopControl.cxx.o.provides
 
-CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o.provides.build: CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o
+CMakeFiles/estop.dir/include/moc_estopControl.cxx.o.provides.build: CMakeFiles/estop.dir/include/moc_estopControl.cxx.o
 
-CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o: CMakeFiles/estop.dir/flags.make
-CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o: include/moc_secondplugin.cxx
+CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o: CMakeFiles/estop.dir/flags.make
+CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o: include/moc_heartbeat.cxx
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o -c /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_secondplugin.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o -c /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_heartbeat.cxx
 
-CMakeFiles/estop.dir/include/moc_secondplugin.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estop.dir/include/moc_secondplugin.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_secondplugin.cxx > CMakeFiles/estop.dir/include/moc_secondplugin.cxx.i
+CMakeFiles/estop.dir/include/moc_heartbeat.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estop.dir/include/moc_heartbeat.cxx.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_heartbeat.cxx > CMakeFiles/estop.dir/include/moc_heartbeat.cxx.i
 
-CMakeFiles/estop.dir/include/moc_secondplugin.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estop.dir/include/moc_secondplugin.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_secondplugin.cxx -o CMakeFiles/estop.dir/include/moc_secondplugin.cxx.s
+CMakeFiles/estop.dir/include/moc_heartbeat.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estop.dir/include/moc_heartbeat.cxx.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_heartbeat.cxx -o CMakeFiles/estop.dir/include/moc_heartbeat.cxx.s
 
-CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o.requires:
-.PHONY : CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o.requires
+CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o.requires:
+.PHONY : CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o.requires
 
-CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o.provides: CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o.requires
-	$(MAKE) -f CMakeFiles/estop.dir/build.make CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o.provides.build
-.PHONY : CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o.provides
+CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o.provides: CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o.requires
+	$(MAKE) -f CMakeFiles/estop.dir/build.make CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o.provides.build
+.PHONY : CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o.provides
 
-CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o.provides.build: CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o
+CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o.provides.build: CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o
 
-include/moc_firstplugin.cxx: ../include/firstplugin.h
+include/moc_estopControl.cxx: ../include/estopControl.h
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating include/moc_firstplugin.cxx"
-	/usr/bin/moc-qt4 -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/include -I/opt/ros/groovy/include -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4 -o /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_firstplugin.cxx /home/pierre/Dropbox/uh/uh1/ros_ws/estop/include/firstplugin.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating include/moc_estopControl.cxx"
+	/usr/bin/moc-qt4 -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/include -I/opt/ros/groovy/include -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/srv_gen/cpp/include -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4 -o /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_estopControl.cxx /home/pierre/Dropbox/uh/uh1/ros_ws/estop/include/estopControl.h
 
-include/moc_secondplugin.cxx: ../include/secondplugin.h
+include/moc_heartbeat.cxx: ../include/heartbeat.h
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating include/moc_secondplugin.cxx"
-	/usr/bin/moc-qt4 -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/include -I/opt/ros/groovy/include -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4 -o /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_secondplugin.cxx /home/pierre/Dropbox/uh/uh1/ros_ws/estop/include/secondplugin.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating include/moc_heartbeat.cxx"
+	/usr/bin/moc-qt4 -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/include -I/opt/ros/groovy/include -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/srv_gen/cpp/include -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4 -o /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_heartbeat.cxx /home/pierre/Dropbox/uh/uh1/ros_ws/estop/include/heartbeat.h
 
 # Object files for target estop
 estop_OBJECTS = \
-"CMakeFiles/estop.dir/src/firstplugin.cpp.o" \
-"CMakeFiles/estop.dir/src/secondplugin.cpp.o" \
-"CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o" \
-"CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o"
+"CMakeFiles/estop.dir/src/estopControl.cpp.o" \
+"CMakeFiles/estop.dir/src/heartbeat.cpp.o" \
+"CMakeFiles/estop.dir/include/moc_estopControl.cxx.o" \
+"CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o"
 
 # External object files for target estop
 estop_EXTERNAL_OBJECTS =
 
-../lib/libestop.so: CMakeFiles/estop.dir/src/firstplugin.cpp.o
-../lib/libestop.so: CMakeFiles/estop.dir/src/secondplugin.cpp.o
-../lib/libestop.so: CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o
-../lib/libestop.so: CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o
+../lib/libestop.so: CMakeFiles/estop.dir/src/estopControl.cpp.o
+../lib/libestop.so: CMakeFiles/estop.dir/src/heartbeat.cpp.o
+../lib/libestop.so: CMakeFiles/estop.dir/include/moc_estopControl.cxx.o
+../lib/libestop.so: CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o
 ../lib/libestop.so: /usr/lib/x86_64-linux-gnu/libQtGui.so
 ../lib/libestop.so: /usr/lib/x86_64-linux-gnu/libQtCore.so
 ../lib/libestop.so: CMakeFiles/estop.dir/build.make
@@ -283,18 +283,18 @@ estop_EXTERNAL_OBJECTS =
 CMakeFiles/estop.dir/build: ../lib/libestop.so
 .PHONY : CMakeFiles/estop.dir/build
 
-CMakeFiles/estop.dir/requires: CMakeFiles/estop.dir/src/firstplugin.cpp.o.requires
-CMakeFiles/estop.dir/requires: CMakeFiles/estop.dir/src/secondplugin.cpp.o.requires
-CMakeFiles/estop.dir/requires: CMakeFiles/estop.dir/include/moc_firstplugin.cxx.o.requires
-CMakeFiles/estop.dir/requires: CMakeFiles/estop.dir/include/moc_secondplugin.cxx.o.requires
+CMakeFiles/estop.dir/requires: CMakeFiles/estop.dir/src/estopControl.cpp.o.requires
+CMakeFiles/estop.dir/requires: CMakeFiles/estop.dir/src/heartbeat.cpp.o.requires
+CMakeFiles/estop.dir/requires: CMakeFiles/estop.dir/include/moc_estopControl.cxx.o.requires
+CMakeFiles/estop.dir/requires: CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o.requires
 .PHONY : CMakeFiles/estop.dir/requires
 
 CMakeFiles/estop.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/estop.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/estop.dir/clean
 
-CMakeFiles/estop.dir/depend: include/moc_firstplugin.cxx
-CMakeFiles/estop.dir/depend: include/moc_secondplugin.cxx
+CMakeFiles/estop.dir/depend: include/moc_estopControl.cxx
+CMakeFiles/estop.dir/depend: include/moc_heartbeat.cxx
 	cd /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pierre/Dropbox/uh/uh1/ros_ws/estop /home/pierre/Dropbox/uh/uh1/ros_ws/estop /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/CMakeFiles/estop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/estop.dir/depend
 

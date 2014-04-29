@@ -6,6 +6,8 @@ rosbuild_init()
 find_package(Qt4 COMPONENTS QtCore QtGui REQUIRED)
 include(${QT_USE_FILE})
 
+rosbuild_gensrv()
+
 add_definitions(-DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4)
 qt4_wrap_cpp(MOC_FILES
   include/estopControl.h
@@ -13,17 +15,20 @@ qt4_wrap_cpp(MOC_FILES
 )
 set(SOURCE_FILES
   src/estopControl.cpp
-    src/heartbeat.cpp
+  src/heartbeat.cpp
   include/estopControl.h
-    include/heartbeat.h
-    plugin_description.xml
+  include/heartbeat.h
+  plugin_description.xml
 manifest.xml
 mainpage.dox
 Makefile
   ${MOC_FILES}
 )
 
-include_directories(/usr/include/eigen3)
+include_directories(/usr/include/eigen3 /usr/include/)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 rosbuild_add_library(${PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} ${QT_LIBRARIES})
+rosbuild_add_executable(estop_control_client src/estop_control_client.cpp)
+rosbuild_add_executable(heartbeat_client src/heartbeat_client.cpp)
+target_link_libraries(estop_control_client serial)

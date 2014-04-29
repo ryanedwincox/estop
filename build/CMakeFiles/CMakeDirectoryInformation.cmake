@@ -15,6 +15,7 @@ SET(CMAKE_C_INCLUDE_PATH
   "/usr/include/qt4"
   "/usr/include/qt4/QtGui"
   "/usr/include/qt4/QtCore"
+  "../srv_gen/cpp/include"
   "/usr/include/eigen3"
   )
 SET(CMAKE_CXX_INCLUDE_PATH ${CMAKE_C_INCLUDE_PATH})

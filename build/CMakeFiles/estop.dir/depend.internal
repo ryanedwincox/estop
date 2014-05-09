@@ -180,6 +180,7 @@ CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o
  /opt/ros/groovy/include/ros/message.h
  /opt/ros/groovy/include/ros/message_event.h
  /opt/ros/groovy/include/ros/message_forward.h
+ /opt/ros/groovy/include/ros/message_operations.h
  /opt/ros/groovy/include/ros/message_traits.h
  /opt/ros/groovy/include/ros/names.h
  /opt/ros/groovy/include/ros/node_handle.h
@@ -230,6 +231,9 @@ CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o
  /opt/ros/groovy/include/rviz/properties/string_property.h
  /opt/ros/groovy/include/rviz/properties/tf_frame_property.h
  /opt/ros/groovy/include/rviz/properties/vector_property.h
+ /opt/ros/groovy/include/std_srvs/Empty.h
+ /opt/ros/groovy/include/std_srvs/EmptyRequest.h
+ /opt/ros/groovy/include/std_srvs/EmptyResponse.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QMap
@@ -515,6 +519,7 @@ CMakeFiles/estop.dir/src/heartbeat.cpp.o
  /opt/ros/groovy/include/ros/message.h
  /opt/ros/groovy/include/ros/message_event.h
  /opt/ros/groovy/include/ros/message_forward.h
+ /opt/ros/groovy/include/ros/message_operations.h
  /opt/ros/groovy/include/ros/message_traits.h
  /opt/ros/groovy/include/ros/names.h
  /opt/ros/groovy/include/ros/node_handle.h
@@ -565,6 +570,9 @@ CMakeFiles/estop.dir/src/heartbeat.cpp.o
  /opt/ros/groovy/include/rviz/properties/string_property.h
  /opt/ros/groovy/include/rviz/properties/tf_frame_property.h
  /opt/ros/groovy/include/rviz/properties/vector_property.h
+ /opt/ros/groovy/include/std_srvs/Empty.h
+ /opt/ros/groovy/include/std_srvs/EmptyRequest.h
+ /opt/ros/groovy/include/std_srvs/EmptyResponse.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QMap

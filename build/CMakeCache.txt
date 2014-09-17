@@ -215,6 +215,9 @@ PROJECTCONFIG:FILEPATH=PROJECTCONFIG-NOTFOUND
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
+//Specify specific Python version to use ('major.minor' or 'major')
+PYTHON_VERSION:STRING=
+
 //Python version
 PYTHON_VERSION_XDOTY:STRING=2.7
 
@@ -1494,13 +1497,13 @@ Q_WS_WIN:INTERNAL=
 //Have symbol Q_WS_X11
 Q_WS_X11:INTERNAL=1
 _rosbuild_EXPORTS:INTERNAL=
-_rosbuild_cached_flag_time:INTERNAL=1398724122.66
+_rosbuild_cached_flag_time:INTERNAL=1400886587.98
 _roslang_LANGS:INTERNAL=roslisp
 _rospack_deps_manifests_invoke_result:INTERNAL=/opt/ros/groovy/share/cpp_common/package.xml;/opt/ros/groovy/share/rostime/package.xml;/opt/ros/groovy/share/roscpp_traits/package.xml;/opt/ros/groovy/share/roscpp_serialization/package.xml;/opt/ros/groovy/share/genmsg/package.xml;/opt/ros/groovy/share/genpy/package.xml;/opt/ros/groovy/share/message_runtime/package.xml;/opt/ros/groovy/share/std_msgs/package.xml;/opt/ros/groovy/share/rosgraph/package.xml;/opt/ros/groovy/share/rosgraph_msgs/package.xml;/opt/ros/groovy/share/catkin/package.xml;/opt/ros/groovy/share/rospack/package.xml;/opt/ros/groovy/share/roslib/package.xml;/opt/ros/groovy/share/rospy/package.xml;/opt/ros/groovy/share/rosconsole/package.xml;/opt/ros/groovy/share/xmlrpcpp/package.xml;/opt/ros/groovy/share/roscpp/package.xml;/opt/ros/groovy/share/geometry_msgs/package.xml;/opt/ros/groovy/share/gencpp/package.xml;/opt/ros/groovy/share/genlisp/package.xml;/opt/ros/groovy/share/message_generation/package.xml;/opt/ros/groovy/share/actionlib_msgs/package.xml;/opt/ros/groovy/share/nav_msgs/package.xml;/opt/ros/groovy/share/sensor_msgs/package.xml;/opt/ros/groovy/share/visualization_msgs/package.xml;/opt/ros/groovy/share/message_filters/package.xml;/opt/ros/groovy/share/tf/package.xml;/opt/ros/groovy/share/console_bridge/package.xml;/opt/ros/groovy/share/class_loader/package.xml;/opt/ros/groovy/share/pluginlib/package.xml;/opt/ros/groovy/share/image_transport/package.xml;/opt/ros/groovy/share/angles/package.xml;/opt/ros/groovy/share/laser_geometry/package.xml;/opt/ros/groovy/share/python_qt_binding/package.xml;/opt/ros/groovy/share/urdfdom_headers/package.xml;/opt/ros/groovy/share/urdfdom/package.xml;/opt/ros/groovy/share/collada_parser/package.xml;/opt/ros/groovy/share/rosconsole_bridge/package.xml;/opt/ros/groovy/share/urdf/package.xml;/opt/ros/groovy/share/std_srvs/package.xml;/opt/ros/groovy/share/topic_tools/package.xml;/opt/ros/groovy/share/rosbag/package.xml;/opt/ros/groovy/share/resource_retriever/package.xml;/opt/ros/groovy/share/opencv2/package.xml;/opt/ros/groovy/share/image_geometry/package.xml;/opt/ros/groovy/share/rosclean/package.xml;/opt/ros/groovy/share/rosmaster/package.xml;/opt/ros/groovy/share/rosout/package.xml;/opt/ros/groovy/share/rosparam/package.xml;/opt/ros/groovy/share/roslaunch/package.xml;/opt/ros/groovy/share/rosunit/package.xml;/opt/ros/groovy/share/rostest/package.xml;/opt/ros/groovy/share/interactive_markers/package.xml;/opt/ros/groovy/share/rviz/package.xml
 _rospack_msgsrv_gen_invoke_result:INTERNAL=
 estop_CFLAGS_OTHER:INTERNAL=
 estop_INCLUDEDIR:INTERNAL=
-estop_INCLUDE_DIRS:INTERNAL=/opt/ros/groovy/include
+estop_INCLUDE_DIRS:INTERNAL=/opt/ros/groovy/include;/usr/include/eigen3;/usr/include/OGRE
 estop_LDFLAGS_OTHER:INTERNAL=
 estop_LIBRARIES:INTERNAL=roscpp;:/usr/lib/libboost_signals-mt.so;:/usr/lib/libboost_filesystem-mt.so;rosconsole;:/usr/lib/libboost_regex-mt.so;:/usr/lib/liblog4cxx.so;xmlrpcpp;roscpp_serialization;rostime;:/usr/lib/libboost_date_time-mt.so;:/usr/lib/libboost_system-mt.so;:/usr/lib/libboost_thread-mt.so;cpp_common;rviz;default_plugin;OgreMain;pthread;:/usr/lib/x86_64-linux-gnu/libGLU.so;:/usr/lib/x86_64-linux-gnu/libGL.so;:/usr/lib/x86_64-linux-gnu/libSM.so;:/usr/lib/x86_64-linux-gnu/libICE.so;:/usr/lib/x86_64-linux-gnu/libX11.so;:/usr/lib/x86_64-linux-gnu/libXext.so
 estop_LIBRARY_DIRS:INTERNAL=/opt/ros/groovy/lib

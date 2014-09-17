@@ -12,6 +12,8 @@ SET(CMAKE_FORCE_UNIX_PATHS 1)
 SET(CMAKE_C_INCLUDE_PATH
   "/home/pierre/Dropbox/uh/uh1/ros_ws/estop/include"
   "/opt/ros/groovy/include"
+  "/usr/include/eigen3"
+  "/usr/include/OGRE"
   "/usr/src/gtest/include"
   "/usr/src/gtest"
   )

@@ -251,12 +251,12 @@ CMakeFiles/estop.dir/include/moc_heartbeat.cxx.o.provides.build: CMakeFiles/esto
 include/moc_estopControl.cxx: ../include/estopControl.h
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating include/moc_estopControl.cxx"
-	/usr/bin/moc-qt4 -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/include -I/opt/ros/groovy/include -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/srv_gen/cpp/include -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4 -o /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_estopControl.cxx /home/pierre/Dropbox/uh/uh1/ros_ws/estop/include/estopControl.h
+	/usr/bin/moc-qt4 -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/include -I/opt/ros/groovy/include -I/usr/include/eigen3 -I/usr/include/OGRE -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/srv_gen/cpp/include -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4 -o /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_estopControl.cxx /home/pierre/Dropbox/uh/uh1/ros_ws/estop/include/estopControl.h
 
 include/moc_heartbeat.cxx: ../include/heartbeat.h
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating include/moc_heartbeat.cxx"
-	/usr/bin/moc-qt4 -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/include -I/opt/ros/groovy/include -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/srv_gen/cpp/include -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4 -o /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_heartbeat.cxx /home/pierre/Dropbox/uh/uh1/ros_ws/estop/include/heartbeat.h
+	/usr/bin/moc-qt4 -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/include -I/opt/ros/groovy/include -I/usr/include/eigen3 -I/usr/include/OGRE -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/pierre/Dropbox/uh/uh1/ros_ws/estop/srv_gen/cpp/include -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4 -o /home/pierre/Dropbox/uh/uh1/ros_ws/estop/build/include/moc_heartbeat.cxx /home/pierre/Dropbox/uh/uh1/ros_ws/estop/include/heartbeat.h
 
 # Object files for target estop
 estop_OBJECTS = \

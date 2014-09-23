@@ -47,20 +47,17 @@ EstopControl::~EstopControl()
 
 void EstopControl::onInitialize()
 {
-    clientE = threaded_nh_.serviceClient<estop::estopSignal>("estop_control");
+//    clientE = threaded_nh_.serviceClient<estop::estopSignal>("estop_control");
 }
 
 void EstopControl::onEnable()
 {
-    //When plugin is enabled
-//    srvE.request.message = 3;
-//    ROS_INFO("sending %d", 3);
-    //clientE.call(srvE);
+    clientE = threaded_nh_.serviceClient<estop::estopSignal>("estop_control");
 }
 
 void EstopControl::onDisable()
 {
-    //When plugin is disabled
+    clientE.shutdown();
 }
 
 void callEstopService()
@@ -88,7 +85,7 @@ void EstopControl::update(float wall_dt, float ros_dt)
          ROS_INFO("sending %d", 3);
     }
 
-    if (i == 50)//  This loop slows down the service call rate so some buffer does not fill up
+    if (i == 10)//  This loop slows down the service call rate so some buffer does not fill up
     {
         callEstopService();
         i = 0;

@@ -11,13 +11,10 @@ rosbuild_gensrv()
 add_definitions(-DQT_NO_KEYWORDS -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4)
 qt4_wrap_cpp(MOC_FILES
   include/estopControl.h
-    include/heartbeat.h
 )
 set(SOURCE_FILES
   src/estopControl.cpp
-  src/heartbeat.cpp
   include/estopControl.h
-  include/heartbeat.h
   plugin_description.xml
 manifest.xml
 mainpage.dox

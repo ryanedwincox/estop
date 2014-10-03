@@ -8,15 +8,19 @@ using namespace std;
 namespace estop
 {
 
+// Initialize ros variables
 ros::ServiceClient clientE;
 estop::estopSignal srvE;
+std_srvs::Empty srv;
+ros::ServiceClient client;
 bool estop;
 bool run = false;
+bool heart;
 int i = 0;
 
 EstopControl::EstopControl() : rviz::Display()
 {
-    sampleRosTopicProperty = new rviz::RosTopicProperty("My Topic",
+    RosTopicProperty = new rviz::RosTopicProperty("My Topic",
                                                         "/default_value",
                                                         QString::fromStdString(ros::message_traits::datatype<std_msgs::Float64MultiArray>()),//Looks for topics only with this type
                                                         "description",
@@ -35,24 +39,25 @@ EstopControl::EstopControl() : rviz::Display()
                                                 this,
                                                 SLOT ( RunPropertyHasChanged() ));
 
-
-
-    //And more
+    HeartbeatProperty = new rviz::BoolProperty("Heartbeat",
+                                                false,
+                                                "description",
+                                                this,
+                                                SLOT ( HeartbeatPropertyHasChanged() ));
 }
 
 EstopControl::~EstopControl()
 {
-    //destructor, clear all allocated memory if any
 }
 
 void EstopControl::onInitialize()
 {
-//    clientE = threaded_nh_.serviceClient<estop::estopSignal>("estop_control");
 }
 
 void EstopControl::onEnable()
 {
     clientE = threaded_nh_.serviceClient<estop::estopSignal>("estop_control");
+    client = threaded_nh_.serviceClient<std_srvs::Empty>("heartbeat");
 }
 
 void EstopControl::onDisable()
@@ -63,49 +68,49 @@ void EstopControl::onDisable()
 void callEstopService()
 {
     clientE.call(srvE);
-    ROS_INFO("Message Sent");
+}
+
+void callHearbeatService()
+{
+    client.call(srv);
 }
 
 void EstopControl::update(float wall_dt, float ros_dt)
 {
+    const char* msg;
     if (estop) // engauge estop
     {
         srvE.request.message = 1;
-        ROS_INFO("sending %d", 1);
+        msg = "stop";
     }
     else if (!estop && !run) // estop reset
     {
          srvE.request.message = 2;
-         ROS_INFO("sending %d", 2);
+         msg = "reset";
     }
     //else if (~estop && run) // run
     else
     {
          srvE.request.message = 3;
-         ROS_INFO("sending %d", 3);
+         msg = "run";
     }
 
-//    if (i == 10)//  This loop slows down the service call rate so some buffer does not fill up
-//    {
-        callEstopService();
-//        i = 0;
-//    }
-//    i++;
+    setStatus( rviz::StatusProperty::Ok, "Message",   QString("%1").arg(msg));
 
-//    if (clientE.call(srvE))
-//    {
-//      ROS_INFO("Recieved handshake: %d", (bool)srvE.response.handshake);
-//    }
-//    else
-//    {
-//      ROS_ERROR("Failed to call service estop_control");
-//    }
+    callEstopService();
+
+    if (heart)
+    {
+        callHearbeatService();
+        setStatus( rviz::StatusProperty::Ok, "Heartbeat Status",   QString("beating"));
+    } else {
+        setStatus( rviz::StatusProperty::Ok, "Heartbeat Status",   QString("stopped"));
+    }
 }
 
 void EstopControl::rosTopicPropertyHasChanged()
 {
-    std::string str = sampleRosTopicProperty->getStdString();
-    //do something;
+    std::string str = RosTopicProperty->getStdString();
 }
 
 void EstopControl::ESTOPPropertyHasChanged()
@@ -118,6 +123,10 @@ void EstopControl::RunPropertyHasChanged()
     run = RunProperty->getBool();
 }
 
+void EstopControl::HeartbeatPropertyHasChanged()
+{
+    heart = HeartbeatProperty->getBool();
+}
 
 } //end namespace
 

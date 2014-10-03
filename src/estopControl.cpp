@@ -85,12 +85,12 @@ void EstopControl::update(float wall_dt, float ros_dt)
          ROS_INFO("sending %d", 3);
     }
 
-    if (i == 10)//  This loop slows down the service call rate so some buffer does not fill up
-    {
+//    if (i == 10)//  This loop slows down the service call rate so some buffer does not fill up
+//    {
         callEstopService();
-        i = 0;
-    }
-    i++;
+//        i = 0;
+//    }
+//    i++;
 
 //    if (clientE.call(srvE))
 //    {

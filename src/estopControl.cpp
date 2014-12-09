@@ -13,8 +13,8 @@ ros::ServiceClient clientE;
 estop::estopSignal srvE;
 std_srvs::Empty srv;
 ros::ServiceClient client;
-bool estop;
-bool run = false;
+bool estop = false;
+bool run = false;  // Set to true to start running on startup
 bool heart;
 int i = 0;
 
@@ -56,8 +56,8 @@ void EstopControl::onInitialize()
 
 void EstopControl::onEnable()
 {
-    clientE = threaded_nh_.serviceClient<estop::estopSignal>("estop_control");
-    client = threaded_nh_.serviceClient<std_srvs::Empty>("heartbeat");
+    clientE = threaded_nh_.serviceClient<estop::estopSignal>("/estop_control");
+    client = threaded_nh_.serviceClient<std_srvs::Empty>("/heartbeat");
 }
 
 void EstopControl::onDisable()

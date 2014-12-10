@@ -9,13 +9,13 @@ namespace estop
 {
 
 // Initialize ros variables
-ros::ServiceClient clientE;
-estop::estopSignal srvE;
-std_srvs::Empty srv;
-ros::ServiceClient client;
-bool estop = false;
-bool run = false;  // Set to true to start running on startup
-bool heart;
+ros::ServiceClient clientEstop;
+ros::ServiceClient clientHeartbeat;
+estop::estopSignal srvEStop;
+std_srvs::Empty srvEmpty;
+bool estopButton = false;
+bool runButton = false;  // Set to true to start running on startup
+bool heartButton;
 int i = 0;
 
 EstopControl::EstopControl() : rviz::Display()
@@ -56,42 +56,41 @@ void EstopControl::onInitialize()
 
 void EstopControl::onEnable()
 {
-    clientE = threaded_nh_.serviceClient<estop::estopSignal>("/estop_control");
-    client = threaded_nh_.serviceClient<std_srvs::Empty>("/heartbeat");
+    clientEstop = threaded_nh_.serviceClient<estop::estopSignal>("/estop_control");
+    clientHeartbeat = threaded_nh_.serviceClient<std_srvs::Empty>("/heartbeat");
 }
 
 void EstopControl::onDisable()
 {
-    clientE.shutdown();
+    clientEstop.shutdown();
 }
 
 void callEstopService()
 {
-    clientE.call(srvE);
+    clientEstop.call(srvEStop);
 }
 
 void callHearbeatService()
 {
-    client.call(srv);
+    clientHeartbeat.call(srvEmpty);
 }
 
 void EstopControl::update(float wall_dt, float ros_dt)
 {
     const char* msg;
-    if (estop) // engauge estop
+    if (estopButton) // engauge estop
     {
-        srvE.request.message = 1;
+        srvEStop.request.message = 1;
         msg = "stop";
     }
-    else if (!estop && !run) // estop reset
+    else if (!estopButton && !runButton) // estop reset
     {
-         srvE.request.message = 2;
+         srvEStop.request.message = 2;
          msg = "reset";
     }
-    //else if (~estop && run) // run
     else
     {
-         srvE.request.message = 3;
+         srvEStop.request.message = 3;
          msg = "run";
     }
 
@@ -99,7 +98,7 @@ void EstopControl::update(float wall_dt, float ros_dt)
 
     callEstopService();
 
-    if (heart)
+    if (heartButton)
     {
         callHearbeatService();
         setStatus( rviz::StatusProperty::Ok, "Heartbeat Status",   QString("beating"));
@@ -115,17 +114,17 @@ void EstopControl::rosTopicPropertyHasChanged()
 
 void EstopControl::ESTOPPropertyHasChanged()
 {
-    estop = ESTOPProperty->getBool();
+    estopButton = ESTOPProperty->getBool();
 }
 
 void EstopControl::RunPropertyHasChanged()
 {
-    run = RunProperty->getBool();
+    runButton = RunProperty->getBool();
 }
 
 void EstopControl::HeartbeatPropertyHasChanged()
 {
-    heart = HeartbeatProperty->getBool();
+    heartButton = HeartbeatProperty->getBool();
 }
 
 } //end namespace
